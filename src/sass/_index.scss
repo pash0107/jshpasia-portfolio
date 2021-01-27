@@ -1,0 +1,265 @@
+.my-7 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.banner__img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.banner__img-container {
+    width: 50%;
+    margin: auto;
+}
+
+.second-p {
+    text-align: center;
+    line-height: 32px;
+}
+
+.advantage__img {
+    text-align: center;
+}
+
+.grid-list__title {
+    color: #141c3a;
+    font-weight: 700;
+}
+
+.grid-list {
+    margin-bottom: 50px;
+}
+
+.grid-image {
+    margin-bottom: 40px;
+    width: 100px !important;
+}
+
+.contact-link {
+    color: #000;
+    margin-bottom: 10px;
+}
+.contact-p {
+    margin-bottom: 0;
+}
+
+::selection{
+    color: #fff;
+    background: #6665ee;
+  }
+  .skill-bars {
+    padding: 25px 30px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+
+    & .bar {
+      margin: 20px 0;
+
+      &:first-child {
+        margin-top: 0px;
+      }
+
+      & .info {
+        margin-bottom: 5px;
+
+        & span {
+          font-weight: 500;
+          font-size: 17px;
+          opacity: 0;
+          animation: showText 0.5s 1s linear forwards;
+        }
+      }
+
+      & .progress-line {
+        height: 10px;
+        width: 100%;
+        background: #f0f0f0;
+        position: relative;
+        transform: scaleX(0);
+        transform-origin: left;
+        border-radius: 10px;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+                    0 1px rgba(255,255,255,0.8);
+        animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+
+        & span {
+          height: 100%;
+          position: absolute;
+          border-radius: 10px;
+          transform: scaleX(0);
+          transform-origin: left;
+          background: #181d29;
+          animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+        }
+      }
+    }
+    @keyframes showText {
+      100%{
+        opacity: 1;
+      }
+    }
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  .bar .progress-line.html span {
+    width: 90%;
+  }
+  .bar .progress-line.sass span {
+    width: 80%;
+  }
+  .bar .progress-line.bootstrap span {
+    width: 90%;
+  }
+  .bar .progress-line.js span{
+    width: 70%;
+  }
+  .bar .progress-line.ruby span{
+    width: 70%;
+  }
+  .bar .progress-line.webpack span{
+    width: 75%;
+  }
+  .bar .progress-line.php span{
+    width: 80%;
+  }
+  .bar .progress-line.py span{
+    width: 65%;
+  }
+  .bar .progress-line.sql span{
+    width: 80%;
+  }
+  .bar .progress-line.ci span{
+    width: 75%;
+  }
+  .bar .progress-line.mig span{
+    width: 80%;
+  }
+  .bar .progress-line.es span{
+    width: 60%;
+  }
+
+  .bar .progress-line.ps span{
+    width: 85%;
+  }
+  .bar .progress-line.xd span{
+    width: 65%;
+  }
+  .bar .progress-line.rasp span{
+    width: 70%;
+  }
+  .bar .progress-line.construct span{
+    width: 70%;
+  }
+  .bar .progress-line.git span{
+    width: 75%;
+  }
+  
+  .bar .progress-line.arduino span{
+    width: 60%;
+  }
+  .progress-line span::before{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  .progress-line span::after{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  @keyframes showText2 {
+    100%{
+      opacity: 1;
+    }
+  }
+  .progress-line.html span::after{
+    content: "90%";
+  }
+  .progress-line.sass span::after{
+    content: "80%";
+  }
+  .progress-line.bootstrap span::after{
+    content: "90%";
+  }
+  .progress-line.js span::after{
+    content: "70%";
+  }
+  .progress-line.ruby span::after{
+    content: "70%";
+  }
+  .progress-line.webpack span::after{
+    content: "75%";
+  }
+
+  .progress-line.php span::after{
+    content: "80%";
+  }
+  .progress-line.py span::after{
+    content: "65%";
+  }
+  .progress-line.sql span::after{
+    content: "80%";
+  }
+  .progress-line.ci span::after{
+    content: "75%";
+  }
+  .progress-line.mig span::after{
+    content: "80%";
+  }
+  .progress-line.es span::after{
+    content: "60%";
+  }
+
+  .progress-line.ps span::after{
+    content: "85%";
+  }
+  .progress-line.xd span::after{
+    content: "65%";
+  }
+  .progress-line.rasp span::after{
+    content: "70%";
+  }
+  .progress-line.construct span::after{
+    content: "70%";
+  }
+  .progress-line.git span::after{
+    content: "75%";
+  }
+  .progress-line.arduino span::after{
+    content: "60%";
+  }
+
+  @media(max-width: 991px) {
+      .heading-title {
+          text-align: center;
+      }
+  }

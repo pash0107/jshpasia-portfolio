@@ -1,0 +1,47 @@
+{
+  "name": "joshua_pasia",
+  "author": "joshuapasia",
+  "version": "2.0.1",
+  "template": {
+    "name": "Joshua Pasia",
+    "version": "1.0.0"
+  },
+  "client": {
+    "name": "",
+    "version": "1.0.0",
+    "url": ""
+  },
+  "scripts": {
+    "build": "webpack --mode=development",
+    "watch": "webpack --mode=development --watch",
+    "prod": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "autoprefixer": "9.6.1",
+    "babel-loader": "8.0.6",
+    "clean-webpack-plugin": "3.0.0",
+    "copy-webpack-plugin": "5.0.4",
+    "css-loader": "3.1.0",
+    "file-loader": "4.2.0",
+    "mini-css-extract-plugin": "0.8.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "postcss-loader": "3.0.0",
+    "sass-loader": "7.1.0",
+    "uglifyjs-webpack-plugin": "2.2.0",
+    "webpack": "4.38.0",
+    "webpack-cli": "3.3.6"
+  },
+  "dependencies": {
+    "animate-scss": "^3.2.1",
+    "bootstrap": "^4.6.0",
+    "css-reset-and-normalize": "2.1.0",
+    "font-awesome": "4.7.0",
+    "jquery": "^3.5.1",
+    "jquery-ui": "1.12.1",
+    "jquery-validation": "1.19.1",
+    "slick-carousel": "1.8.1"
+  }
+}
