@@ -263,3 +263,18 @@
           text-align: center;
       }
   }
+
+.fa {
+  font-size: 70px;
+
+  &-online {
+    font-size: 7px;
+    color: #52c41a;
+    align-self: center;
+    margin-right: 7px;
+  }
+}
+
+.div-status {
+  text-align: center;
+}
