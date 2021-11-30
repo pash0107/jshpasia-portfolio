@@ -272,6 +272,10 @@
     color: #52c41a;
     align-self: center;
     margin-right: 7px;
+      
+    @media (max-width: 991px) {
+      display: none;
+    }
   }
 }
 
